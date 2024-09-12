@@ -1,1 +1,6 @@
-<p>Game: <%= game.id %></p>
+<div class="p-2 flex-col">
+  <p>North: <%= @game["n"]["hand"] %></p>
+  <p>East: <%= @game["e"]["hand"] %></p>
+  <p>South: <%= @game["s"]["hand"] %></p>
+  <p>West: <%= @game["w"]["hand"] %></p>
+</div>
